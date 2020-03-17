@@ -1,5 +1,10 @@
 ## Learn NGX
 
+The online demo [project](https://stackblitz.com/edit/angular-71voje)
+
+The NGX official [manual](https://angular.io/start/start-forms)
+
+
 - Devflow
 
 - RootComponent
