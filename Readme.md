@@ -63,3 +63,18 @@ The NGX official [manual](https://angular.io/start/start-forms)
   - C: *.component.ts
 
     The controller of the component, with all of the lifecyle functions include `constructor(**args)`, `ngOnInit()` .
+
+- Communication between parent & child components
+  - Parent -> Child
+    
+    Use the `@Input` decorator to decorate the child component's field or property.
+
+    Set value in the child's attribute `<childtag [property]="value"><childtag>`.
+
+  - Child -> Parent
+
+    Use the `@Output` decorator to decorate a `EventEmitter`.
+
+    Emit message from child to parent.
+
+    Catch the message after define the attribute `<childtag (childEvent)="value=$event"></childtag>`. 
